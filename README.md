@@ -282,7 +282,7 @@ The corresponding relationship between MAX’s Unit and TopOn’s placement type
 ### 1. Open the log of TopOn SDK
 
 ```java
-ATSDK.setNetworkLogDebug(true);//The SDK log function is recommended to be turned on during the integration testing phase and must be turned off before going online.
+TUSDK.setNetworkLogDebug(true);//The SDK log function is recommended to be turned on during the integration testing phase and must be turned off before going online.
 ```
 
 > After opening, you can filter this TAG in Logcat to view related logs: `thinkup|AppLovinSdk`

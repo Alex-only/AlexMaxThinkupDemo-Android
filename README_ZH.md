@@ -20,7 +20,7 @@
 
 请从TopOn后台下载接入SDK，建议接入**TopOn v6.4.69及以上版本**。
 
-**注意**：在调用new ATRewardVideoAd()、new ATInterstitial()、new ATBannerView()时，**必须传入Activity**，否则Max广告将请求失败
+**注意**：在调用new TURewardVideoAd()、new TUInterstitial()、new TUBannerView()时，**必须传入Activity**，否则Max广告将请求失败
 
 ---
 
@@ -290,7 +290,7 @@ MAX的Unit跟TopOn的广告类型对应关系如下：
 ### 1. 打开TopOn SDK的日志
 
 ```java
-ATSDK.setNetworkLogDebug(true);//SDK日志功能，集成测试阶段建议开启，上线前必须关闭
+TUSDK.setNetworkLogDebug(true);//SDK日志功能，集成测试阶段建议开启，上线前必须关闭
 ```
 
 > 打开后，可在Logcat中过滤此TAG查看相关日志：`thinkup|AppLovinSdk`
