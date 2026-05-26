@@ -1,6 +1,8 @@
 # ⚠️ **注**：仅支持搭配 **TUSDK** 使用
 
 > **温馨提示**：遵守COPPA规定的开发者，请确保使用v1.2.2及以上版本的Adapter
+> - **v1.2.9版本更新说明:修复已知问题
+>   1. 仅支持Max v13.3.0及以上; 仅支持TopOn v6.5.50及以上
 > - **v1.2.9版本更新说明:
 >   1. 仅支持Max v13.3.0及以上; 仅支持TopOn v6.5.50及以上
 >   2. **Banner 广告升级**：新增对平板设备的支持（尺寸规格：LEADER - 728x90）
@@ -33,7 +35,7 @@
 ```java
 dependencies {
     //Max SDK
-    api 'com.applovin:applovin-sdk:13.5.0'
+    api 'com.applovin:applovin-sdk:13.6.0'
 }
 ```
 
@@ -52,7 +54,7 @@ repositories {
 
 dependencies {
     //Alex Adapter
-    api 'io.github.alex-only:max_adapter_tu:1.2.9'
+    api 'io.github.alex-only:max_adapter_tu:1.3.0'
 }
 ```
 
@@ -90,8 +92,8 @@ dependencies {
 <dependencies>
     <androidPackages>
 
-        <androidPackage spec="com.applovin:applovin-sdk:13.5.0"/>
-        <androidPackage spec="io.github.alex-only:max_adapter_tu:1.2.9"/>
+        <androidPackage spec="com.applovin:applovin-sdk:13.6.0"/>
+        <androidPackage spec="io.github.alex-only:max_adapter_tu:1.3.0"/>
         
     </androidPackages>
 </dependencies>
